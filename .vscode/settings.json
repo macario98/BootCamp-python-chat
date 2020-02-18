@@ -1,0 +1,13 @@
+{
+	"sqltools.connections": [
+		{
+			"database": "bootcamp",
+			"dialect": "PostgreSQL",
+			"name": "ChatBootcamp",
+			"password": "Minds.Boot02",
+			"port": 5432,
+			"server": "192.168.0.135",
+			"username": "bem20macario"
+		}
+	]
+}

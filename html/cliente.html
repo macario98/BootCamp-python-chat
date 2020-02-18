@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<h1>***</h1>
+	<form>
+		<input type="hidden" id="id">
+		<input 
+			type="text"
+			id="ip" 
+			readonly
+			style="border-radius: 4px;
+				   border: 1px solid #ccc;
+				   padding: 6px 12px;
+				   display: block;
+				   width: 210px;">
+
+		<textarea id="listMSG" cols="30" rows="10" style="width: 230px;" readonly></textarea>
+		<textarea id="listUSER" cols="30" rows="10" style="width: 450px;" readonly></textarea>
+		<div id="inputMSG">
+			<input 	type="text"
+					id="msg" 
+					placeholder="Ingrese mensage"
+					style="border-radius: 4px;
+						   border: 1px solid #ccc;
+						   padding: 6px 12px;">
+			<button type="button"
+					id="Send"
+					style="border-radius: 4px;
+						   border: 1px solid transparent;
+						   font-size: 14px;
+						   padding: 6px 12px;
+						   color:#fff;
+						   background-color:#337ab7;
+						   cursor: pointer;">
+				Enviar
+			</button>
+		</div>
+	</form>
+	<script src="cliente.js"></script>
+	<script src="getIP.js"></script>
+</body>
+</html>
